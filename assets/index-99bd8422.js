@@ -48,6 +48,9 @@ Error generating stack: `+l.message+`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width:760px){
+    height: 70vh;
+}
 
 
 `,Kd=U.div`
@@ -64,6 +67,9 @@ Error generating stack: `+l.message+`
 `,Gd=U.div`
     width: 90%;
     height: 80%;
+    @media screen and (max-width:760px){
+    height: 100%;
+}
     
     
 
@@ -279,6 +285,7 @@ justify-content: ${e=>e.pos};
     font-size: 24px;
     padding-top: 50px;
     padding-left: 20px;
+    margin-bottom: 20px;
 
     & div{
         display: flex;
@@ -288,9 +295,11 @@ justify-content: ${e=>e.pos};
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+       
     }
     @media screen and (max-width:760px){
         font-size: 16px;
+        height: 30vh;
 }
 
 
@@ -359,15 +368,15 @@ width: 100%;
        height: 40%;
     }
     & div{
-        font-size: 18px;
+        font-size: 20px;
     }
     @media screen and (max-width:760px){
         & img{
-            width: 150px;
+            width: 250px;
             margin-top: 20px;
         }
         & div{
-            font-size: 14px;
+            font-size: 16px;
             margin-top: 20px;
         }
         margin-top: 80px;
