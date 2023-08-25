@@ -8,6 +8,9 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width:760px){
+    height: 70vh;
+}
 
 
 `
@@ -28,6 +31,9 @@ export const Content = styled.div`
 export const AboutMain = styled.div`
     width: 90%;
     height: 80%;
+    @media screen and (max-width:760px){
+    height: 100%;
+}
     
     
 

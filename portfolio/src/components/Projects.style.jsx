@@ -58,15 +58,15 @@ export const Project = styled.div`
        height: 40%;
     }
     & div{
-        font-size: 18px;
+        font-size: 20px;
     }
     @media screen and (max-width:760px){
         & img{
-            width: 150px;
+            width: 250px;
             margin-top: 20px;
         }
         & div{
-            font-size: 14px;
+            font-size: 16px;
             margin-top: 20px;
         }
         margin-top: 80px;

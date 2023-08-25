@@ -7,6 +7,7 @@ export const Container = styled.div`
     font-size: 24px;
     padding-top: 50px;
     padding-left: 20px;
+    margin-bottom: 20px;
 
     & div{
         display: flex;
@@ -16,9 +17,11 @@ export const Container = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+       
     }
     @media screen and (max-width:760px){
         font-size: 16px;
+        height: 30vh;
 }
 
 
