@@ -40,7 +40,7 @@ function Main() {
             <a href='https://www.linkedin.com/in/catarinacsampaio/'><FaLinkedin /></a>
             <a href='https://github.com/SamCatarina'><FaGithub /></a>
             <a href='mailto:sampaiocatarina11@gmail.com'><FaEnvelope /></a>
-            <a href='https://api.whatsapp.com/send?phone=87981675434'><FaWhatsapp /></a>
+            <a href='https://api.whatsapp.com/send?phone=+5587981675434'><FaWhatsapp /></a>
           </div>
 
         </ContactIcons>
